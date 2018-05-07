@@ -1,0 +1,23 @@
+{
+  "name": "es6-course",
+  "version": "1.0.0",
+  "description": "es6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "nodemon app-src/app.js --exec babel-node --presets babel-preset-env"
+  },
+  "keywords": [
+    "es6"
+  ],
+  "author": "Miqueias Penha <miqueiaspenha@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-watch": "^2.0.7"
+  },
+  "dependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
